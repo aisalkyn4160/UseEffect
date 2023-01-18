@@ -1,0 +1,30 @@
+.list_wrapper{
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 50px;
+}
+.list_wrapper li{
+    width: 150px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list_wrapper img{
+    width: 150px;
+    height: 150px;
+}
+.list_wrapper h2{
+    font-size: 10px;
+}
+
+.content_block{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
